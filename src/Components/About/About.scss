@@ -1,0 +1,45 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+    margin-top: 100px;
+    color: white;
+}
+
+.about-title {
+    margin-right: auto;
+    font-size: 7.5vw;
+}
+
+.about-description {
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 1.1vw;
+    width: 25vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-container {
+        margin-left: 150px;
+    }
+    .about-title {
+        font-size: 75px;
+    }
+    .about-description {
+        font-size: 11px;
+        width: 250px;
+    }
+  }
+
+@media screen and (min-width: 2000px) {
+    .about-container {
+        margin-left: 300px;
+    }
+    .about-title {
+        font-size: 150px;
+    }
+    .about-description {
+        font-size: 22px;
+        width: 500px;
+    }
+}
