@@ -17,15 +17,15 @@ interface ILogo {
 
 const Skills = () => {
     const logos: ILogo[] = [
-        {src: CSharp, description: 'C#'},
-        {src: Html, description: 'Html'},
-        {src: Css, description: 'CSS'},
-        {src: Java, description: 'Java'},
-        {src: JavaScript, description: 'JavaScript'},
-        {src: Python, description: 'Python'},
-        {src: React, description: 'React'},
-        {src: Sql, description: 'SQL'},
-        {src: TypeScript, description: 'TypeScript'},
+        {src: CSharp, description: 'I have used C# a lot for developing video games in unity as well as for the backend in two of my internships.'},
+        {src: Html, description: 'Html is a language that I have used a lot as I enjoy front end development.'},
+        {src: Css, description: 'CSS is something that I use all the time when developing web applications.'},
+        {src: Java, description: 'Java is the first programming language that I have ever learned. I used it in a highschool class, as well as a class in college.'},
+        {src: JavaScript, description: 'JavaScript is one of my favorite languages. I have been using it for a while now and is probably my strongest lanuage.'},
+        {src: TypeScript, description: 'TypeScript was introduced to me during one of my internships. I think that it is just a better version of Javascript'},
+        {src: Python, description: 'Python is a language that I learned during one of my classes in college. It has been a while since I have used it, but I am familiar with it.'},
+        {src: React, description: 'I really enjoy react. It is such a powerful tool for front end development. I have been using it for a while now.'},
+        {src: Sql, description: 'I have used SQL for quite some time now as it is very trivial for backend development. I used it for a class in college, as well as during my internships.'},
     ];
  return(
     <div className='skills-container' id='skills'>
