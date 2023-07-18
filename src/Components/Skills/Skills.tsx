@@ -8,6 +8,8 @@ import Python from '../../Images/Logos/PythonLogo.png';
 import React from '../../Images/Logos/ReactLogo.png';
 import Sql from '../../Images/Logos/SQLLogo.png';
 import TypeScript from '../../Images/Logos/TypeScriptLogo.png';
+import Angular from '../../Images/Logos/AngularLogo.png';
+
 import { Tooltip } from 'antd';
 
 interface ILogo {
@@ -25,14 +27,15 @@ const Skills = () => {
         {src: TypeScript, description: 'TypeScript was introduced to me during one of my internships. I think that it is just a better version of Javascript'},
         {src: Python, description: 'Python is a language that I learned during one of my classes in college. It has been a while since I have used it, but I am familiar with it.'},
         {src: React, description: 'I really enjoy react. It is such a powerful tool for front end development. I have been using it for a while now.'},
-        {src: Sql, description: 'I have used SQL for quite some time now as it is very trivial for backend development. I used it for a class in college, as well as during my internships.'},
+        {src: Sql, description: 'I have used SQL for quite some time now as it is very trivial for backend development. I have used it for classes in college, as well as during my internships at Kiewit.'},
+        {src: Angular, description: 'I used Angular to develop a web app during my internship at Capital One.'}
     ];
  return(
     <div className='skills-container' id='skills'>
         <div className='skills-title'>Skills</div>
         <div className='skill-logos'>
             {logos.map((logo: any) => (
-                <Tooltip title={logo.description} mouseEnterDelay={.3} mouseLeaveDelay={0}>
+                <Tooltip title={logo.description} mouseEnterDelay={.2} mouseLeaveDelay={0}>
                     <img className="logo-image" src={logo.src} />
                 </Tooltip>
             ))}

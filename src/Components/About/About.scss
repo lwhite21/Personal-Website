@@ -1,16 +1,19 @@
 .about-container {
     display: flex;
-    margin-left: calc(20vw - 100px);
-    margin-right: calc(20vw - 100px);
-    margin-top: 100px;
+    flex-wrap: wrap-reverse;
+    margin-top: 50px;
     color: white;
     align-items: center;
+    justify-content: center;
+    width: calc(min(95vw, 800px));
 }
 
 .about-text {
     animation: about-text-load 1s;
     display: flex;
     flex-direction: column;
+    margin: auto;
+    margin-top: calc(max(20px, auto));
 }
 
 @keyframes about-text-load {
@@ -25,9 +28,10 @@
 
 .about-image {
     animation: about-image-load 1s;
-    margin-left: auto;
-    width: 20vw;
-    height: 30vw;
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 300px;
     max-width: 400px;
     max-height: 600px;
     min-width: 200px;
@@ -45,39 +49,39 @@
 }
 
 .about-title {
-    font-size: 7.5vw;
+    font-size: 75px;
 }
 
 .about-description {
     margin-top: 40px;
-    font-size: 1.1vw;
-    width: 25vw;
+    font-size: 11px;
+    width: 250px;
 }
 
-@media screen and (max-width: 1000px) {
-    .about-container {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .about-title {
-        font-size: 75px;
-    }
-    .about-description {
-        font-size: 11px;
-        width: 250px;
-    }
-  }
+// @media screen and (max-width: 1000px) {
+    // .about-container {
+    //     margin-left: 100px;
+    //     margin-right: 100px;
+    // }
+    // .about-title {
+    //     font-size: 75px;
+    // }
+    // .about-description {
+    //     font-size: 11px;
+    //     width: 250px;
+    // }
+//   }
 
-@media screen and (min-width: 2000px) {
+// @media screen and (min-width: 2000px) {
     // .about-container {
     //     margin-left: 200px;
     //     margin-right: 200px;
     // }
-    .about-title {
-        font-size: 150px;
-    }
-    .about-description {
-        font-size: 22px;
-        width: 500px;
-    }
-}
+    // .about-title {
+    //     font-size: 150px;
+    // }
+    // .about-description {
+    //     font-size: 22px;
+    //     width: 500px;
+    // }
+// }
