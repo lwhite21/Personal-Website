@@ -1,3 +1,9 @@
 .career-container {
-    
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: calc(min(95vw, 800px));
 }
